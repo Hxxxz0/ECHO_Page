@@ -1114,6 +1114,57 @@ a:focus {
   font-weight: 700;
 }
 
+/* Cover — authors */
+.cover-authors {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.2rem 1.2rem;
+  margin-bottom: 0.75rem;
+}
+
+.cover-author {
+  font-size: 1.05rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  opacity: 0.92;
+}
+
+.cover-author sup {
+  font-size: 0.6em;
+  margin-left: 1px;
+  opacity: 0.7;
+}
+
+/* Cover — affiliation text */
+.cover-affil-text {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.3rem 1.4rem;
+  font-size: 0.88rem;
+  opacity: 0.6;
+  margin-bottom: 0.4rem;
+}
+
+.cover-affil-text sup {
+  font-size: 0.65em;
+  margin-right: 2px;
+}
+
+/* Cover — author notes */
+.cover-author-notes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3rem 0.6rem;
+  font-size: 0.78rem;
+  font-style: italic;
+  opacity: 0.45;
+  margin-bottom: 1.5rem;
+}
+
 /* Cover — tags */
 .cover-tags {
   display: flex;
@@ -1275,6 +1326,23 @@ a:focus {
 
   .cover-subtitle {
     font-size: 1.05rem;
+  }
+
+  .cover-authors {
+    gap: 0.15rem 0.8rem;
+  }
+
+  .cover-author {
+    font-size: 0.9rem;
+  }
+
+  .cover-affil-text {
+    font-size: 0.78rem;
+    gap: 0.2rem 1rem;
+  }
+
+  .cover-author-notes {
+    font-size: 0.7rem;
   }
 
   .cover-buttons {
